@@ -1,4 +1,4 @@
-# # FIT5032_2025_35522879_Lab12 (NoMash-Library)
+# FIT5032_2025_35522879_Lab12 (NoMash-Library)
 
 This template should help get you started developing with Vue 3 in Vite.
 
