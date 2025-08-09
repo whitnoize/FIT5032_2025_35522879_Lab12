@@ -7,7 +7,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   return {
-    base: mode === 'production' ? '/my-lab12/' : '/',
+    base: mode === 'production' ? '/FIT5032_2025_35522879_Lab12/' : '/',
     plugins: [
       vue(),
       vueDevTools(),
