@@ -18,15 +18,15 @@ function handleLogout() {
     <header class="d-flex justify-content-between py-3">
       <ul class="nav nav-pills">
         <li class="nav-item">
-          <router-link to="/" class="nav-link" active-class="active" aria-current="page">Home (Week 8)</router-link>
+          <router-link :to="{ name: 'Home' }" class="nav-link" active-class="active" aria-current="page">Home (Week 8)</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/about" class="nav-link" active-class="active">About</router-link>
+          <router-link :to="{ name: 'About' }" class="nav-link" active-class="active">About</router-link>
         </li>
       </ul>
       <div >
         <button v-if="isAuthenticated" @click="handleLogout" class="btn btn-outline-danger btn-md ms-4">Logout</button>
-        <router-link v-else to="/login" class="btn btn-outline-primary btn-md ms-4">Login</router-link>
+        <router-link v-else :to="{ name: 'Login' }"  class="btn btn-outline-primary btn-md ms-4">Login</router-link>
       </div>
     </header>
   </div>
